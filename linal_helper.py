@@ -23,11 +23,13 @@ def input_linear_convex() -> (int, np.ndarray, np.ndarray):
 
     convex = []
 
+    print("Введите векторы: ")
     for i in range(vector_amount):
-        convex.append(list(map(float, input().split())))
+        convex.append(np.array(list(map(float, input().split()))))
 
     point = np.array(point)
     convex = np.array(convex)
+    convex = convex.T
 
     return dim, point, convex
 
