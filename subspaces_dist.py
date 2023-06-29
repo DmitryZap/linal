@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
     # Считаем расстояние
     result = math.sqrt(det_P_tilda_T_dot_P_tilda / det_P_T_dot_P)
-    print(f"d = sqrt(det(P_tilda.T * P) / det(P.T * P)) = sqrt({det_P_tilda_T_dot_P_tilda} / {det_P_T_dot_P}) =", result)
+    print(f"d = sqrt(det(P_tilda.T * P_tilda) / det(P.T * P)) = sqrt({det_P_tilda_T_dot_P_tilda} / {det_P_T_dot_P}) =", result)
 
 
 """

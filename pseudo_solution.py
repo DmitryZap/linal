@@ -1,4 +1,3 @@
-import numpy as np
 import linal_helper
 import display_helper
 
